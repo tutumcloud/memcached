@@ -27,7 +27,7 @@ You will see an output like the following:
 	========================================================================
     You can now connect to this Memcached server using:
 	
-          USERNAME:amdin      PASSWORD:h0znMbk3RkM8
+          USERNAME:admin      PASSWORD:h0znMbk3RkM8
 	    
 	Please remember to change the above password as soon as possible!
 	========================================================================
