@@ -18,7 +18,7 @@ touch /.memcached_admin_created
 echo "========================================================================"
 echo "You can now connect to this Memcached server using:"
 echo ""
-echo "    USERNAME:amdin      PASSWORD:$PASS"
+echo "    USERNAME:admin      PASSWORD:$PASS"
 echo ""
 echo "Please remember to change the above password as soon as possible!"
 echo "========================================================================"
