@@ -43,7 +43,7 @@ Setting a specific password for the admin account
 If you want to use a preset password instead of a random generated one, you can
 set the environment variable `MEMCACHED_PASS` to your specific password when running the container:
 
-	docker run -d -p 5432:5432 -e MEMCACHED_PASS="mypass" tutum/memcached
+	docker run -d -p 11211:11211 -e MEMCACHED_PASS="mypass" tutum/memcached
 	
 	
 Testing with Python
@@ -57,7 +57,7 @@ Testing `tutum/memcached`:
 
 ```python
 >>> import bmemcached
->>> client = bmemcached.Client(('localhost:49154',),'admin','h0znMbk3RkM8')
+>>> client = bmemcached.Client(('localhost:11211',),'admin','h0znMbk3RkM8')
 >>> client.set('key','value')
 True
 >>> print client.get('key')
