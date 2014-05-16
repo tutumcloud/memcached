@@ -1,4 +1,4 @@
-FROM ubuntu:saucy
+FROM ubuntu:trusty
 MAINTAINER FENG, HONGLIN <hfeng@tutum.co>
 
 #install memcached
